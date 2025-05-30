@@ -1,0 +1,17 @@
+// Fluid Typography - Responsive font sizes that scale smoothly
+.fluid-text(@min-size, @max-size, @min-screen: 320px, @max-screen: 1200px) {
+	font-size: @min-size;
+
+	@media screen and (min-width: @min-screen) {
+		font-size: ~"calc(@{min-size} + (@{max-size} - @{min-size}) * ((100vw - @{min-screen}) / (@{max-screen} - @{min-screen})))";
+	}
+
+	@media screen and (min-width: @max-screen) {
+		font-size: @max-size;
+	}
+}
+
+// Clamp-based fluid typography (modern approach)
+.fluid-clamp(@min-size, @max-size, @min-screen: 320px, @max-screen: 1200px) {
+	font-size: ~"clamp(@{min-size}, @{min-size} + (@{max-size} - @{min-size}) * ((100vw - @{min-screen}) / (@{max-screen} - @{min-screen})), @{max-size})";
+}
