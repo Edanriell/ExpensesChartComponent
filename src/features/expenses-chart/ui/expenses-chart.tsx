@@ -43,14 +43,14 @@ export const ExpensesChart = () => {
 				</dl>
 				<svg
 					className="chart-header__chart-icon"
-					width="60"
-					height="41"
-					viewBox="0 0 60 41"
+					width="73"
+					height="49"
+					viewBox="0 0 73 49"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
 				>
-					<circle cx="40" cy="20.5" r="20" fill="#382314" />
-					<circle cx="20" cy="20.5" r="19" stroke="white" strokeWidth="2" />
+					<circle cx="48.5" cy="24.5" r="24" fill="#382314" />
+					<circle cx="24.5" cy="24.5" r="23" stroke="white" strokeWidth="2" />
 				</svg>
 			</header>
 			<div className="expenses-chart-section__expenses-chart expenses-chart">
