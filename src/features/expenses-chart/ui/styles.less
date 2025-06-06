@@ -1,0 +1,149 @@
+.expenses-chart-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 16rem;
+}
+
+.expenses-chart-section__chart-header {
+	position: relative;
+}
+
+.chart-header {
+	border-radius: 10rem;
+	padding: 23rem 22rem;
+	background: var(--colors-red-500);
+	width: 100%;
+	max-width: 343rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.chart-header__balance-data {
+	position: relative;
+}
+
+.balance-data {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.balance-data__title {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15rem;
+	line-height: 135%;
+	color: var(--colors-white);
+}
+
+.balance-data__current-balance {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 24rem;
+	line-height: 130%;
+	color: var(--colors-white);
+}
+
+.chart-header__chart-icon {
+	width: 60rem;
+	height: 40rem;
+}
+
+.expenses-chart-section__expenses-chart {
+	position: relative;
+}
+
+.expenses-chart {
+	border-radius: 10rem;
+	padding: 24rem 20rem;
+	width: 100%;
+	max-width: 343rem;
+	background: var(--colors-white);
+}
+
+.expenses-chart__title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 24rem;
+	line-height: 130%;
+	color: var(--colors-brown-950);
+	margin-bottom: 26rem;
+}
+
+.expenses-chart__chart-footer {
+	position: relative;
+}
+
+.chart-footer {
+	margin-top: 24rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 24rem;
+}
+
+.chart-footer__splitter {
+	width: 100%;
+	border-radius: 1rem;
+	height: 2rem;
+	background: var(--colors-red-100);
+}
+
+.chart-footer__data {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.chart-footer__expenses-data {
+	position: relative;
+}
+
+.expenses-data {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.expenses-data__title {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15rem;
+	line-height: 135%;
+	color: var(--colors-brown-400);
+}
+
+.expenses-data__current-expenses {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 32rem;
+	line-height: 130%;
+	color: var(--colors-brown-950);
+}
+
+.chart-footer__expenses-increase-data {
+	position: relative;
+}
+
+.expenses-increase-data {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
+
+.expenses-increase-data__title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 15rem;
+	line-height: 135%;
+	color: var(--colors-brown-950);
+}
+
+.expenses-increase-data__current-expenses-increase {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15rem;
+	line-height: 135%;
+	color: var(--colors-brown-400);
+}
