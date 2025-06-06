@@ -55,7 +55,13 @@ export const ExpensesChart = () => {
 			</header>
 			<div className="expenses-chart-section__expenses-chart expenses-chart">
 				<h3 className="expenses-chart__title">Spending - Last 7 days</h3>
-				<Bar width={280} height={204} data={chartData} options={chartOptions} />
+				<Bar
+					className="expenses-chart__bar-chart"
+					width={280}
+					height={204}
+					data={chartData}
+					options={chartOptions}
+				/>
 				<footer className="expenses-chart__chart-footer chart-footer">
 					<div className="chart-footer__splitter"></div>
 					<div className="chart-footer__data">
