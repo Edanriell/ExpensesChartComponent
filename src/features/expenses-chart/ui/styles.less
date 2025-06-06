@@ -1,0 +1,217 @@
+.expenses-chart-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 16rem;
+
+	@media (width >= 768px) {
+		row-gap: 24rem;
+	}
+}
+
+.expenses-chart-section__chart-header {
+	position: relative;
+}
+
+.chart-header {
+	border-radius: 10rem;
+	padding: 23rem 22rem;
+	background: var(--colors-red-500);
+	width: 100%;
+	max-width: 343rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	@media (width >= 768px) {
+		border-radius: 20rem;
+		padding: 26rem 35.5rem;
+		max-width: 540rem;
+	}
+}
+
+.chart-header__balance-data {
+	position: relative;
+}
+
+.balance-data {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	@media (width >= 768px) {
+		row-gap: 8rem;
+	}
+}
+
+.balance-data__title {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15rem;
+	line-height: 135%;
+	color: var(--colors-white);
+
+	@media (width >= 768px) {
+		font-size: 18rem;
+		line-height: 125%;
+	}
+}
+
+.balance-data__current-balance {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 24rem;
+	line-height: 130%;
+	color: var(--colors-white);
+
+	@media (width >= 768px) {
+		font-size: 32rem;
+	}
+}
+
+.chart-header__chart-icon {
+	width: 60rem;
+	height: 40rem;
+
+	@media (width >= 768px) {
+		width: 72rem;
+		height: 48rem;
+	}
+}
+
+.expenses-chart-section__expenses-chart {
+	position: relative;
+}
+
+.expenses-chart {
+	border-radius: 10rem;
+	padding: 24rem 20rem;
+	width: 100%;
+	max-width: 343rem;
+	background: var(--colors-white);
+
+	@media (width >= 768px) {
+		border-radius: 20rem;
+		padding: 38rem 40rem;
+		max-width: 540rem;
+	}
+}
+
+.expenses-chart__title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 24rem;
+	line-height: 130%;
+	color: var(--colors-brown-950);
+	margin-bottom: 26rem;
+
+	@media (width >= 768px) {
+		font-size: 32rem;
+		margin-bottom: 34rem;
+	}
+}
+
+.expenses-chart__bar-chart {
+	margin: 0 auto;
+	width: fit-content;
+}
+
+.expenses-chart__chart-footer {
+	position: relative;
+}
+
+.chart-footer {
+	margin-top: 24rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 24rem;
+
+	@media (width >= 768px) {
+		margin-top: 32rem;
+		row-gap: 32rem;
+	}
+}
+
+.chart-footer__splitter {
+	width: 100%;
+	border-radius: 1rem;
+	height: 2rem;
+	background: var(--colors-red-100);
+}
+
+.chart-footer__data {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.chart-footer__expenses-data {
+	position: relative;
+}
+
+.expenses-data {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.expenses-data__title {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15rem;
+	line-height: 135%;
+	color: var(--colors-brown-400);
+
+	@media (width >= 768px) {
+		font-size: 18rem;
+		line-height: 125%;
+	}
+}
+
+.expenses-data__current-expenses {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 32rem;
+	line-height: 130%;
+	color: var(--colors-brown-950);
+
+	@media (width >= 768px) {
+		font-size: 48rem;
+	}
+}
+
+.chart-footer__expenses-increase-data {
+	position: relative;
+}
+
+.expenses-increase-data {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
+
+.expenses-increase-data__title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 15rem;
+	line-height: 135%;
+	color: var(--colors-brown-950);
+
+	@media (width >= 768px) {
+		font-size: 18rem;
+		line-height: 125%;
+	}
+}
+
+.expenses-increase-data__current-expenses-increase {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15rem;
+	line-height: 135%;
+	color: var(--colors-brown-400);
+
+	@media (width >= 768px) {
+		font-size: 18rem;
+		line-height: 125%;
+	}
+}
