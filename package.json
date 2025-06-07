@@ -11,8 +11,8 @@
 	},
 	"dependencies": {
 		"@faker-js/faker": "^9.8.0",
-		"@tanstack/react-router": "^1.120.16",
-		"@tanstack/react-router-devtools": "^1.120.16",
+		"@tanstack/react-router": "^1.120.18",
+		"@tanstack/react-router-devtools": "^1.120.18",
 		"chart.js": "^4.4.9",
 		"faker": "^6.6.6",
 		"less": "^4.3.0",
@@ -24,8 +24,8 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.28.0",
-		"@tanstack/router-devtools": "^1.120.16",
-		"@tanstack/router-plugin": "^1.120.16",
+		"@tanstack/router-devtools": "^1.120.18",
+		"@tanstack/router-plugin": "^1.120.18",
 		"@types/faker": "^6.6.11",
 		"@types/node": "^22.15.30",
 		"@types/react": "^19.1.6",
