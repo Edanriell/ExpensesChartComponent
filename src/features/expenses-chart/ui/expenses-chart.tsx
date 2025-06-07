@@ -85,4 +85,6 @@ export const ExpensesChart = () => {
 };
 
 // TODO
-// Responsivness
+// Add in shared layer hook which detects width of screen
+// Make bar chart response
+// Not found page
