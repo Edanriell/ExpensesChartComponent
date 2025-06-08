@@ -1,5 +1,3 @@
-import "./styles.less";
-
 import { FC } from "react";
 
 import { NotFoundWidget } from "@widgets/not-found/ui";
