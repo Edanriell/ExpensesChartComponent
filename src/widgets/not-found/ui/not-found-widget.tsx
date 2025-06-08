@@ -1,4 +1,6 @@
-import { Link } from "@tanstack/react-router";
+import "./styles.less";
+
+import { NavLink } from "@shared/ui/nav-link/ui";
 
 export const NotFoundWidget = () => {
 	return (
@@ -12,9 +14,9 @@ export const NotFoundWidget = () => {
 			<p className="not-found-section__description">
 				Sorry, we couldn't find the page you were looking for.
 			</p>
-			<Link className="not-found-section__link link" to="/">
-				Go back to Home
-			</Link>
+			<NavLink to="/">
+				<span>Go back to Home</span>
+			</NavLink>
 		</section>
 	);
 };
