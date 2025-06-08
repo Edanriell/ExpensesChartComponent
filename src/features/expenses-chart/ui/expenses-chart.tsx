@@ -124,5 +124,4 @@ export const ExpensesChart = () => {
 };
 
 // TODO
-// Not found page
 // Ts Errors and any
