@@ -1,4 +1,5 @@
 import { merge } from "lodash";
+import { TooltipItem } from "chart.js";
 
 type chartTooltipOptions = {
 	bodyFont: {
@@ -60,7 +61,7 @@ export const getChartOptions = ({ chartOptions }: getChartOptionsParams) => {
 				},
 				callbacks: {
 					title: () => "",
-					label: (context: any) => `$${context.parsed.y}`
+					label: (context: TooltipItem<"bar">) => `$${context.parsed.y}`
 				}
 			},
 			title: {
